@@ -1,0 +1,260 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    background-color:black;
+    color:white;
+    text-align: center;
+    font-size: 48px;
+    border-bottom: 3px orange solid;
+
+}
+
+.header a{
+    color:white;
+    font-size: 28px;
+    position: absolute;
+    top:5px;
+    right:5px;
+}
+
+.header h1{
+    padding:30px;
+}
+.container{
+    background-image: linear-gradient(to right, #000000,#383838);
+    
+    width:100%;
+}
+
+.mortgageCalc{
+    background-color: black;
+    width: 600px;
+    margin: auto;
+    color:white;
+    border-radius: 15px;
+}
+
+.calcContent{
+    padding:40px;
+}
+
+.mHeader{
+    width:100%;
+    text-align: center;
+    padding-bottom: 40px;
+    border-bottom: 3px yellow solid;
+    font-size: 28px;
+}
+
+.mBody{
+    font-size: 24px;
+    padding-top: 20px;
+    
+}
+
+.mBody h2{
+    padding-bottom: 15px;
+}
+
+.mBody input{
+    font-size: 20px;
+    margin-bottom: 15px;
+    
+
+}
+.mBody select{
+    font-size: 20px;
+}
+
+.mBody input:focus{
+    background-color:#ffffba;
+}
+
+.results{
+    
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 15px;
+    height: 0%;
+    
+}
+
+.results h4{
+    padding:10px;
+}
+
+.demoBox{
+    padding:100px;
+    
+}
+
+#calcSubmit{
+    background-color: black;
+    color:white;
+    padding:5px 8px;
+    border:2px yellow solid;
+}
+
+#calcSubmit:hover{
+    cursor:pointer;
+}
+
+#calcSubmit:active{
+    background-color: yellow;
+}
+
+#loanTerm{
+    height: 35px;
+}
+
+.player{
+    width: 600px;
+    background-color:#666;
+    margin:auto;
+    
+}
+
+.player h1{
+    color:white;
+    text-align: center;
+    background-image: linear-gradient(to right,#000000,#383838);
+    display:block;
+    border-bottom: 3px orange solid;
+}
+
+.playlist{
+    height: 400px;
+    overflow-x:hidden;
+    overflow-y: scroll;
+}
+
+.playlist button{
+    display:block;
+    width:100%;
+    height:80px;
+    background-image: linear-gradient(to right,#000000,#383838);
+    color:white;
+    font-size: 28px;
+    border-style: none;
+    margin: 3px;
+}
+
+.playlist button:hover{
+    cursor: pointer;
+    background-image: none;
+    background-color: orange;
+}
+
+
+
+.audioPlayer{
+    width:100%;
+    background-image: linear-gradient(to right,#000000,#383838);
+    color:white;
+    
+    
+}
+
+#title{
+    color:white;
+    background-image: linear-gradient(to right,#000000,#383838);
+    display:block;
+    border-top: 3px rgb(255, 166, 0) solid;
+}
+
+.playlist::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  .playlist::-webkit-scrollbar-track {
+    background:#666; 
+  }
+  
+  /* Handle */
+  .playlist::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to right,#ffa500,#ffbe47);
+    border-radius: 10px;
+    
+  }
+  
+  /* Handle on hover */
+  .playlist::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  @media (max-width:800px){
+
+    *{
+        margin:0;
+        padding:0;
+        
+    }
+
+    .header h1{
+        font-size: 28px;
+    }
+
+    .header a{
+        font-size: 20px;
+    }
+      .mortgageCalc{
+          width:100%;
+          border-radius: 0;
+          padding:0;
+          margin:0;
+      }
+
+      .mortgageCalc h1{
+          font-size: 28px;
+      }
+
+      .mortgageCalc h1{
+        font-size: 28px;
+    }
+    
+    .mortgageCalc h2{
+        font-size: 28px;
+    }
+
+    .mBody{
+        margin:0;
+        padding:0;
+        width:100%;
+    }
+
+    .mBody input{
+        display:block;
+        width:100%;
+        font-size: 36px;
+    }
+
+    #calcSubmit{
+        margin-top: 10px;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .results{
+        font-size: 20px;
+    }
+      .player{
+          width:100%;
+      }
+      .demoBox{
+          padding: 0px;
+          width:100%;
+          margin:0;
+          padding:0;
+      }
+
+      .container{
+          width:100%;
+          padding:0px;
+      }
+      .demoBox{
+          width:100%;
+      }
+  }

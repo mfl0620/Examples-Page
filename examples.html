@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./styleExamples.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mark Laforte | Examples</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Examples</h1>
+        <a href="index.html">< Back to Home</a></Back>
+    </div>
+    <div class="container">
+            <div class="demoBox">
+                    <div class="mortgageCalc">
+                            <div class="calcContent">
+                                    <div class="mHeader">
+                                            <h1>Basic Mortgage Calculator</h1>
+                                    </div>
+                                    <div class="mBody">
+                                            <h2>Total Mortgage</h2>
+                                            <input id="totalPrinciple" type="text">
+                                            <h2>Interest Rate %</h2>
+                                            <input id="interestRate" type="text">
+                                            <h2>Loan Term</h2>
+                                            <select name="loanTerm" id="loanTerm">
+                                                <option value="360">30yr.</option>
+                                                <option value="180"> 15yr.</option>
+                                            </select>
+                                            <input id="calcSubmit" type="submit">
+                                            <div id="results" class="results">
+                                                    <h4 id="monthlyPayment"></h4>
+                                                    <h4 id="totalInterest">Submit for Results</h4>
+                                                    <h4 id="totalPayments"></h4>
+                                            </div>
+                                            
+                                    </div>
+                                    
+                            </div>
+                            
+                    
+                        </div>
+            </div>
+            <div class="demoBox">
+                <div class="player">
+                        <h1>Music Player</h1>
+                        <div class="playlist" id="playlist">
+                            <button class="btn" value="Morning Light/01- Last Light On the Mountain.mp3"></button>
+                            <button class="btn" value="Morning Light/02- A Single Rose.mp3"></button>
+                            <button class="btn" value="Morning Light/03- Morning Light.mp3"></button>
+                            <button class="btn" value="Morning Light/04- Picasso Blue.mp3"></button>
+                            <button class="btn" value="Morning Light/05- Inspiration.mp3"></button>
+                            <button class="btn" value="Morning Light/06- White Horse.mp3"></button>
+                            <button class="btn" value="Morning Light/07- Summer Rain.mp3"></button>
+                            <button class="btn" value="Morning Light/08- Across the Bay.mp3"></button>
+                            <button class="btn" value="Morning Light/09- Silent Snow.mp3"></button>
+                            <button class="btn" value="Morning Light/10- Wild Swans.mp3"></button>
+                            <button class="btn" value="Morning Light/11- Promise.mp3"></button>
+                        </div>
+                        <label id="title" for=""></label>
+                        <audio class="audioPlayer" controls="controls" id="audio_player">
+                            <!--<source src="track.ogg" type="audio/ogg" />-->
+                            <source id="audioSrc" src="" type="audio/mpeg" />
+                            Your browser does not support the audio element.
+                          </audio>
+                    </div>
+            </div>
+    </div>
+    
+    <script src="scriptExamples.js"></script>
+</body>
+</html>
