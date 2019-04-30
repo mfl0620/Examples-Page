@@ -1,4 +1,4 @@
-
+//The Mortgage Calculator
 
 var t;
 var ai;
@@ -37,18 +37,7 @@ function calculate(){
 }
 
 
-/*
-var t = 100000;
-var ai = .05;
-var i = ai / 12;
-var n = 360;
-var d = (Math.pow(1 + i, n)-1)/(i * Math.pow(1 + i, n));
-var mp = t / d;
-var ti = mp * n - t;
-
-
-console.log("Your total Interest is " + ti  + "\nYour monthly payment is " + mp);
-*/
+//The Music Playlist
 
 var player = document.getElementById('player');
 var audioSrc = document.getElementById('audioSrc');
